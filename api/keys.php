@@ -1,6 +1,6 @@
 <?php
 
-$apikey = ""; // get your own apiKey from " https://babel-in.xyz "
+$apikey = "babel-9064ba5b81f8d0ef20d14868c8343a65"; // get your own apiKey from " https://babel-in.xyz "
 
 $id = $_GET['id'] ?? exit("Error: ID not provided.");
 $api = "https://babel-in.xyz/$apikey/tata/key/$id";
